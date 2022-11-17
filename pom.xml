@@ -11,7 +11,7 @@
 
 	<description>Maven Web Project for Java Project</description>
 	<organization>
-		<name>Landmark Technologies</name>
+		<name>Tovee Technopalace</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.47.184:4500/</sonar.host.url>
+		<sonar.host.url>http://34.204.185.64:3500</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/maven-webber-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
